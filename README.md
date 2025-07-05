@@ -2,7 +2,9 @@
 
 # `Tailor Swif`
 
-made mainly to learn [this stack](#stack) for . see my takeaways.
+Full Stack Web App that connects [tailor](https://dictionary.cambridge.org/dictionary/english/tailor)s and their [client](https://www.reddit.com/r/askSingapore/comments/1cm3f25/affordable_tailor/)s.
+
+Made mainly to learn [this stack](#stack).
 
 ## Stack
 
