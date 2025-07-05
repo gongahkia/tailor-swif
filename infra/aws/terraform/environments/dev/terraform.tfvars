@@ -1,0 +1,5 @@
+env           = "dev"
+aws_profile   = "tailorswif-dev"
+state_bucket  = "tailorswif-terraform-state-dev"
+lock_table    = "tailorswif-terraform-lock-dev"
+db_password   = "devpassword"

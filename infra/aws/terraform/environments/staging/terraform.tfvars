@@ -1,0 +1,5 @@
+env           = "staging"
+aws_profile   = "tailorswif-staging"
+state_bucket  = "tailorswif-terraform-state-staging"
+lock_table    = "tailorswif-terraform-lock-staging"
+db_password   = "stagingpassword"

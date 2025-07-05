@@ -1,0 +1,5 @@
+env           = "prod"
+aws_profile   = "tailorswif-prod"
+state_bucket  = "tailorswif-terraform-state-prod"
+lock_table    = "tailorswif-terraform-lock-prod"
+db_password   = "prodpassword"
