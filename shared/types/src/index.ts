@@ -1,27 +1,13 @@
-export enum UserRole {
-  CUSTOMER = "CUSTOMER",
-  TAILOR = "TAILOR",
-  ADMIN = "ADMIN"
-}
-
-export enum AccountStatus {
-  ACTIVE = "ACTIVE",
-  SUSPENDED = "SUSPENDED",
-  PENDING = "PENDING"
-}
-
-export enum TailorType {
-  LOCAL = "LOCAL",
-  LARGE = "LARGE"
-}
-
-export enum MessageType {
-  TEXT = "TEXT",
-  VOICE = "VOICE"
-}
-
-export enum ReviewStatus {
-  PENDING = "PENDING",
-  APPROVED = "APPROVED",
-  REJECTED = "REJECTED"
-}
+export * from "./enums";
+export * from "./models/user";
+export * from "./models/tailor";
+export * from "./models/review";
+export * from "./models/message";
+export * from "./api/user.dto";
+export * from "./api/tailor.dto";
+export * from "./api/review.dto";
+export * from "./api/message.dto";
+export * from "./validation/user.schema";
+export * from "./validation/tailor.schema";
+export * from "./validation/review.schema";
+export * from "./validation/message.schema";
