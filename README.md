@@ -16,6 +16,34 @@ made mainly to learn the stack for . see my takeaways.
 
 ...
 
+```console
+$ git clone ...
+```
+
+`./apps/web/.env.local`
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=XXX
+CLERK_SECRET_KEY=XXX
+NEXT_PUBLIC_API_BASE_URL=http://localhost:4000
+NEXT_PUBLIC_MAPS_API_KEY=XXX
+```
+
+`./infra/docker/.env`
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=XXX
+CLERK_SECRET_KEY=XXX
+
+NEXT_PUBLIC_API_BASE_URL=http://api:4000
+NEXT_PUBLIC_MAPS_API_KEY=XXX
+
+SECRET_KEY_BASE=XXX
+S3_BUCKET=XXX
+
+POSTGRES_PASSWORD=XXX
+```
+
 ## Architecture
 
 ...
