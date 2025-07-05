@@ -4,7 +4,7 @@
 
 Full Stack Web App that connects [tailor](https://dictionary.cambridge.org/dictionary/english/tailor)s and their [client](https://www.reddit.com/r/askSingapore/comments/1cm3f25/affordable_tailor/)s.
 
-Made mainly to learn [this stack](#stack).
+Made mainly to learn [this stack](#stack). My takeaways can be found [here](#takeaways).
 
 ## Stack
 
@@ -16,10 +16,6 @@ Made mainly to learn [this stack](#stack).
 * *Deployment*: [AWS EC2](https://aws.amazon.com/ec2/), [AWS RDS](https://aws.amazon.com/s3/), [AWS S3](https://aws.amazon.com/s3/), [Terraform](https://developer.hashicorp.com/terraform), [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
 * *Package*: [Docker](https://www.docker.com/)
 * *Internationalization*: [next-i18next](https://next.i18next.com/)
-
-## Screenshots
-
-...
 
 ## Usage
 
@@ -74,7 +70,12 @@ The name `Tailor Swif` is in reference to [A$AP Rocky](https://en.wikipedia.org/
 
 ## Takeaways
 
-...
+* 
+* 
+* 
+* 
+* 
+* 
 
 ## Legal Disclaimer
 
