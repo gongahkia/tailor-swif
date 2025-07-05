@@ -2,22 +2,18 @@
 
 # `Tailor Swif`
 
-made mainly to learn the stack for . see my takeaways.
+made mainly to learn [this stack](#stack) for . see my takeaways.
 
 ## Stack
 
-...
-
-* *Frontend*
-* *Backend*
-* *Package*
-* *Middleware*
-* *Scripts*
-* *Deployment*
-* **
-* **
-* **
-* **
+* *Frontend*: [Next.js](), [TypeScript]()
+* *Backend*: [Phoenix](), [Elixir](), [Ecto]()
+* *DB*: [PostgreSQL]()
+* *Cache*: [Redis]()
+* *Auth*: [Clerk](), [Jason](), [Bcrypt]()
+* *Deployment*: [AWS EC2](), [AWS RDS](), [AWS S3](), [Terraform](), [CloudFormation]()
+* *Package*: [Docker]()
+* *Internationalization*: [next-i18next]()
 
 ## Screenshots
 
