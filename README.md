@@ -70,12 +70,10 @@ The name `Tailor Swif` is in reference to [A$AP Rocky](https://en.wikipedia.org/
 
 ## Takeaways
 
-* 
-* 
-* 
-* 
-* 
-* 
+* Using TypeScript for shared Frontend types and relying on Elixir's Ecto schemas helped prevent contract drift and *(I'm guessing)* saved me from many runtime errors.
+* It was my first time working with Terraform and CloudFormation to provision AWS resources and the learning curve wasn't gentle, but hopefully I start reaping the fruits of reproducibility and scalability soon.
+* Phoenix Channels and Redis' pub/sub architecture make real-time messaging and notifications so easy its unreal.
+* I'm using next-i18next to handle Frontend multi-language support from now on.
 
 ## Legal Disclaimer
 
