@@ -55,7 +55,7 @@ POSTGRES_PASSWORD=XXX
 
 ## Architecture
 
-...
+![](./asset/reference/architecture.png)
 
 ## Reference
 
