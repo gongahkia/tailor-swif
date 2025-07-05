@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: ../web
+      dockerfile: ../docker/web/Dockerfile
+    image: tailor-swif-web:prod
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=https://api.tailorswif.com
+      - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
+      - NEXT_PUBLIC_MAPS_API_KEY=${NEXT_PUBLIC_MAPS_API_KEY}
+    ports:
+      - "80:3000"
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: ../api
+      dockerfile: ../docker/api/Dockerfile
+    image: tailor-swif-api:prod
+    environment:
+      - DATABASE_URL=ecto://tailorswif:${POSTGRES_PASSWORD}@db:5432/tailorswif
+      - SECRET_KEY_BASE=${SECRET_KEY_BASE}
+      - S3_BUCKET=${S3_BUCKET}
+      - REDIS_URL=redis://redis:6379/0
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=tailorswif
+      - POSTGRES_USER=tailorswif
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis_data:/data
+
+volumes:
+  db_data:
+  redis_data:
