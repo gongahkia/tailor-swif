@@ -6,11 +6,11 @@ made mainly to learn [this stack](#stack) for . see my takeaways.
 
 ## Stack
 
-* *Frontend*: [Next.js](), [TypeScript]()
-* *Backend*: [Phoenix](), [Elixir](), [Ecto]()
-* *DB*: [PostgreSQL]()
-* *Cache*: [Redis]()
-* *Auth*: [Clerk](), [Jason](), [Bcrypt]()
+* *Frontend*: [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/)
+* *Backend*: [Phoenix](https://www.phoenixframework.org/), [Elixir](https://elixir-lang.org/), [Ecto](https://hexdocs.pm/ecto/)
+* *DB*: [PostgreSQL](https://www.postgresql.org/)
+* *Cache*: [Redis](https://redis.io/)
+* *Auth*: [Clerk](https://clerk.com/), [JWT](https://jwt.io/introduction), [Bcrypt](https://clerk.com/blog/bcrypt-hashing-authentication-encryption)
 * *Deployment*: [AWS EC2](), [AWS RDS](), [AWS S3](), [Terraform](), [CloudFormation]()
 * *Package*: [Docker]()
 * *Internationalization*: [next-i18next]()
