@@ -8,6 +8,17 @@ made mainly to learn the stack for . see my takeaways.
 
 ...
 
+* *Frontend*
+* *Backend*
+* *Package*
+* *Middleware*
+* *Scripts*
+* *Deployment*
+* **
+* **
+* **
+* **
+
 ## Screenshots
 
 ...
