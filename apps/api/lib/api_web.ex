@@ -1,66 +1,38 @@
-defmodule TailorSwifWeb do
-  @moduledoc """
-  The entrypoint for defining your web interface, such
-  as controllers, components, channels, and so on.
-
-  This can be used in your application as:
-
-      use TailorSwifWeb, :controller
-      use TailorSwifWeb, :html
-
-  The definitions below will be executed for every controller,
-  component, etc, so keep them short and clean, focused
-  on imports, uses and aliases.
-
-  Do NOT define functions inside the quoted expressions
-  below. Instead, define additional modules and import
-  those modules here.
-  """
-
-  def static_paths, do: ~w(assets fonts images favicon.ico robots.txt)
-
-  def router do
+defmodule ApiWeb do
+  def controller do
     quote do
-      use Phoenix.Router, helpers: false
-
-      # Import common connection and controller functions to use in pipelines
+      use Phoenix.Controller, namespace: ApiWeb
       import Plug.Conn
-      import Phoenix.Controller
+      import ApiWeb.Gettext
+      alias ApiWeb.Router.Helpers, as: Routes
+    end
+  end
+
+  def view do
+    quote do
+      use Phoenix.View, root: "lib/tailor_swif_web/templates", namespace: ApiWeb
+      import Phoenix.Controller, only: [get_flash: 1, get_flash: 2, view_module: 1]
+      import ApiWeb.ErrorHelpers
+      import ApiWeb.Gettext
+      alias ApiWeb.Router.Helpers, as: Routes
     end
   end
 
   def channel do
     quote do
       use Phoenix.Channel
+      import ApiWeb.Gettext
     end
   end
 
-  def controller do
+  def router do
     quote do
-      use Phoenix.Controller,
-        formats: [:html, :json],
-        layouts: [html: TailorSwifWeb.Layouts]
-
-      use Gettext, backend: TailorSwifWeb.Gettext
-
+      use Phoenix.Router
       import Plug.Conn
-
-      unquote(verified_routes())
+      import Phoenix.Controller
     end
   end
 
-  def verified_routes do
-    quote do
-      use Phoenix.VerifiedRoutes,
-        endpoint: TailorSwifWeb.Endpoint,
-        router: TailorSwifWeb.Router,
-        statics: TailorSwifWeb.static_paths()
-    end
-  end
-
-  @doc """
-  When used, dispatch to the appropriate controller/live_view/etc.
-  """
   defmacro __using__(which) when is_atom(which) do
     apply(__MODULE__, which, [])
   end
