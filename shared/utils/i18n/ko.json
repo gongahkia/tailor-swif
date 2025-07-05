@@ -1,0 +1,20 @@
+{
+  "welcome": "Tailor Swif에 오신 것을 환영합니다",
+  "login": "로그인",
+  "logout": "로그아웃",
+  "signup": "회원가입",
+  "profile": "프로필",
+  "dashboard": "대시보드",
+  "tailors": "재단사",
+  "customers": "고객",
+  "messages": "메시지",
+  "reviews": "리뷰",
+  "filter": "필터",
+  "search": "검색",
+  "language": "언어",
+  "send": "보내기",
+  "cancel": "취소",
+  "save": "저장",
+  "edit": "편집",
+  "delete": "삭제"
+}

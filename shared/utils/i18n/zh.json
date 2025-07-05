@@ -1,0 +1,20 @@
+{
+  "welcome": "欢迎来到 Tailor Swif",
+  "login": "登录",
+  "logout": "登出",
+  "signup": "注册",
+  "profile": "个人资料",
+  "dashboard": "仪表盘",
+  "tailors": "裁缝",
+  "customers": "客户",
+  "messages": "消息",
+  "reviews": "评价",
+  "filter": "筛选",
+  "search": "搜索",
+  "language": "语言",
+  "send": "发送",
+  "cancel": "取消",
+  "save": "保存",
+  "edit": "编辑",
+  "delete": "删除"
+}

@@ -1,0 +1,20 @@
+{
+  "welcome": "Selamat datang ke Tailor Swif",
+  "login": "Log Masuk",
+  "logout": "Log Keluar",
+  "signup": "Daftar",
+  "profile": "Profil",
+  "dashboard": "Papan Pemuka",
+  "tailors": "Tukang Jahit",
+  "customers": "Pelanggan",
+  "messages": "Mesej",
+  "reviews": "Ulasan",
+  "filter": "Tapis",
+  "search": "Cari",
+  "language": "Bahasa",
+  "send": "Hantar",
+  "cancel": "Batal",
+  "save": "Simpan",
+  "edit": "Sunting",
+  "delete": "Padam"
+}

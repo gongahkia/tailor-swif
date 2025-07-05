@@ -1,0 +1,20 @@
+{
+  "welcome": "Welcome to Tailor Swif",
+  "login": "Login",
+  "logout": "Logout",
+  "signup": "Sign Up",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "tailors": "Tailors",
+  "customers": "Customers",
+  "messages": "Messages",
+  "reviews": "Reviews",
+  "filter": "Filter",
+  "search": "Search",
+  "language": "Language",
+  "send": "Send",
+  "cancel": "Cancel",
+  "save": "Save",
+  "edit": "Edit",
+  "delete": "Delete"
+}

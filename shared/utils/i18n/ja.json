@@ -1,0 +1,20 @@
+{
+  "welcome": "Tailor Swifへようこそ",
+  "login": "ログイン",
+  "logout": "ログアウト",
+  "signup": "サインアップ",
+  "profile": "プロフィール",
+  "dashboard": "ダッシュボード",
+  "tailors": "テーラー",
+  "customers": "顧客",
+  "messages": "メッセージ",
+  "reviews": "レビュー",
+  "filter": "フィルター",
+  "search": "検索",
+  "language": "言語",
+  "send": "送信",
+  "cancel": "キャンセル",
+  "save": "保存",
+  "edit": "編集",
+  "delete": "削除"
+}
