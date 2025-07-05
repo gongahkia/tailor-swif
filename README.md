@@ -11,9 +11,9 @@ made mainly to learn [this stack](#stack) for . see my takeaways.
 * *DB*: [PostgreSQL](https://www.postgresql.org/)
 * *Cache*: [Redis](https://redis.io/)
 * *Auth*: [Clerk](https://clerk.com/), [JWT](https://jwt.io/introduction), [Bcrypt](https://clerk.com/blog/bcrypt-hashing-authentication-encryption)
-* *Deployment*: [AWS EC2](), [AWS RDS](), [AWS S3](), [Terraform](), [CloudFormation]()
-* *Package*: [Docker]()
-* *Internationalization*: [next-i18next]()
+* *Deployment*: [AWS EC2](https://aws.amazon.com/ec2/), [AWS RDS](https://aws.amazon.com/s3/), [AWS S3](https://aws.amazon.com/s3/), [Terraform](https://developer.hashicorp.com/terraform), [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
+* *Package*: [Docker](https://www.docker.com/)
+* *Internationalization*: [next-i18next](https://next.i18next.com/)
 
 ## Screenshots
 
