@@ -22,13 +22,14 @@ yarn-error.log*
 next-env.d.ts
 .env.local
 .env
-myenv
-_build/
 cover/
 deps/
 doc/
+_build/
 .fetch
 erl_crash.dump
 *.ez
 tmp/
 api-*.tar
+__pycache__
+myenv
