@@ -23,6 +23,9 @@ Made mainly to learn [this stack](#stack).
 
 ## Usage
 
+> [!IMPORTANT]
+> Read the [legal disclaimer](#legal-disclaimer) before using `Taylor Swif`.
+
 1. The below instructions are for locally hosting `Tailor Swif`.
 
 ```console
@@ -75,4 +78,60 @@ The name `Tailor Swif` is in reference to [A$AP Rocky](https://en.wikipedia.org/
 
 ## Legal Disclaimer
 
-...
+### For Informational Purposes Only
+
+The information provided by Taylor Swif is intended solely for general informational purposes. While every effort is made to ensure the accuracy and reliability of the information, Taylor Swif makes no guarantees, representations, or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the information presented. Users should independently verify any information before making decisions based on it.
+
+### No Professional Advice
+
+Taylor Swif does not provide professional tailoring, business, legal, or financial advice, consultation, or representation. The information and results obtained through Taylor Swif should not be considered a substitute for professional advice from qualified practitioners or consultants. Users are strongly encouraged to consult with appropriate professionals regarding their specific needs and requirements.
+
+### No Endorsement
+
+The inclusion of any tailor profiles, businesses, services, databases, sources, or third-party content within Taylor Swif does not constitute an endorsement or recommendation of those sources or their content. Taylor Swif is not affiliated with any external content providers unless explicitly stated.
+
+### Third-Party Content
+
+Taylor Swif aggregates and displays information sourced from various third-party businesses, databases, and websites. Taylor Swif does not control, monitor, or guarantee the accuracy or reliability of such third-party content. Use of information obtained from these sources is at the user’s own risk, and Taylor Swif disclaims all liability for any content, claims, or damages resulting from their use.
+
+### Use at Your Own Risk
+
+Users access, use, and rely on Taylor Swif and its results at their own risk. Information may become outdated or inaccurate without notice, and business or service landscapes may change rapidly. Taylor Swif disclaims all liability for any loss, injury, or damage, direct or indirect, arising from reliance on the information provided. This includes but is not limited to misinformation, outdated business details, incorrect interpretations, or decisions made based on the content displayed.
+
+### Limitation of Liability
+
+To the fullest extent permitted by law:
+
+* Taylor Swif shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your use of the application or reliance on any information or results.
+* Taylor Swif disclaims all liability for errors or omissions in the content provided.
+* Our total liability under any circumstances shall not exceed the amount paid by you (if any) for using Taylor Swif.
+
+### User Responsibility
+
+Users are solely responsible for:
+
+* Verifying the accuracy and currency of any information obtained through Taylor Swif.
+* Seeking appropriate professional advice for their specific circumstances.
+* Complying with all applicable laws, regulations, and professional conduct rules.
+* Understanding that information and search results are not substitutes for formal professional counsel.
+* Exercising independent judgment when interpreting information and developments.
+
+### Copyright and Intellectual Property
+
+Taylor Swif respects intellectual property rights and makes efforts to only display publicly available information. If you believe your copyrighted work has been inappropriately used or displayed by Taylor Swif, please contact the creator to request its removal.
+
+### Data Collection and Privacy
+
+Taylor Swif may collect user data to improve service functionality. By using Taylor Swif, you consent to data collection practices as outlined in our separate Privacy Policy.
+
+### Changes to Content
+
+Taylor Swif reserves the right to modify, update, or remove any content on this platform at any time without prior notice. Business listings, sources, and search results may change without notice due to various factors including changes in source availability or content quality.
+
+### Jurisdiction
+
+This disclaimer and your use of Taylor Swif shall be governed by and construed in accordance with the laws of Singapore. Any disputes arising out of or in connection with this disclaimer shall be subject to the exclusive jurisdiction of the courts in Singapore.
+
+### Contact
+
+This project is created and maintained by Gabriel Ong. Please contact him at [gabrielzmong@gmail.com](mailto:gabrielzmong@gmail.com).
