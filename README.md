@@ -2,6 +2,8 @@
 
 # `Tailor Swif`
 
+made mainly to learn the stack for . see my takeaways.
+
 ## Stack
 
 ...
@@ -23,6 +25,10 @@
 The name `Tailor Swif` is in reference to [A$AP Rocky](https://en.wikipedia.org/wiki/ASAP_Rocky)'s 2024 song of the [same name](https://youtu.be/5URefVYaJrA?feature=shared).
 
 ![](./asset/logo/tailor-swif.png)
+
+## Takeaways
+
+...
 
 ## Legal Disclaimer
 

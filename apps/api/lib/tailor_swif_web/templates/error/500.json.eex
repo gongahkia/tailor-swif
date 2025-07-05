@@ -1,0 +1,1 @@
+<%= Jason.encode!(%{error: "Internal Server Error"}) %>
