@@ -23,13 +23,13 @@ Made mainly to learn [this stack](#stack).
 
 ## Usage
 
-...
+1. The below instructions are for locally hosting `Tailor Swif`.
 
 ```console
 $ git clone https://github.com/gongahkia/tailor-swif && cd tailor-swif
-$ make
-$ make build
 ```
+
+2. Create `.env.local` and `.env` at the below file paths with the relevant secrets.
 
 `./apps/web/.env.local`
 
@@ -45,14 +45,18 @@ NEXT_PUBLIC_MAPS_API_KEY=XXX
 ```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=XXX
 CLERK_SECRET_KEY=XXX
-
 NEXT_PUBLIC_API_BASE_URL=http://api:4000
 NEXT_PUBLIC_MAPS_API_KEY=XXX
-
 SECRET_KEY_BASE=XXX
 S3_BUCKET=XXX
-
 POSTGRES_PASSWORD=XXX
+```
+
+3. Then run the below to start up **development** and **production builds** of the [Frontend](./apps/web/) and [Backend](./apps/api/).
+
+```console
+$ make
+$ make build
 ```
 
 ## Architecture
