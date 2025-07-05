@@ -7,7 +7,7 @@ export default async function DashboardPage() {
   return (
     <main>
       <h1>Welcome, {user.firstName || user.emailAddress}!</h1>
-      <p>This is your dashboard.</p>
+      <p>This is your placeholder dashboard.</p>
     </main>
   );
 }
