@@ -28,7 +28,9 @@ made mainly to learn the stack for . see my takeaways.
 ...
 
 ```console
-$ git clone ...
+$ git clone https://github.com/gongahkia/tailor-swif && cd tailor-swif
+$ make
+$ make build
 ```
 
 `./apps/web/.env.local`
