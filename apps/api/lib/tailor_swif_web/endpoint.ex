@@ -1,4 +1,4 @@
-defmodule ApiWeb.Endpoint do
+defmodule TailorSwifWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :api
 
   # The session will be stored in the cookie and signed,
@@ -23,7 +23,7 @@ defmodule ApiWeb.Endpoint do
     at: "/",
     from: :api,
     gzip: false,
-    only: ApiWeb.static_paths()
+    only: TailorSwifWeb.static_paths()
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
@@ -47,5 +47,5 @@ defmodule ApiWeb.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
   plug Plug.Session, @session_options
-  plug ApiWeb.Router
+  plug TailorSwifWeb.Router
 end

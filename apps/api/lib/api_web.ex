@@ -1,12 +1,12 @@
-defmodule ApiWeb do
+defmodule TailorSwifWeb do
   @moduledoc """
   The entrypoint for defining your web interface, such
   as controllers, components, channels, and so on.
 
   This can be used in your application as:
 
-      use ApiWeb, :controller
-      use ApiWeb, :html
+      use TailorSwifWeb, :controller
+      use TailorSwifWeb, :html
 
   The definitions below will be executed for every controller,
   component, etc, so keep them short and clean, focused
@@ -39,9 +39,9 @@ defmodule ApiWeb do
     quote do
       use Phoenix.Controller,
         formats: [:html, :json],
-        layouts: [html: ApiWeb.Layouts]
+        layouts: [html: TailorSwifWeb.Layouts]
 
-      use Gettext, backend: ApiWeb.Gettext
+      use Gettext, backend: TailorSwifWeb.Gettext
 
       import Plug.Conn
 
@@ -52,9 +52,9 @@ defmodule ApiWeb do
   def verified_routes do
     quote do
       use Phoenix.VerifiedRoutes,
-        endpoint: ApiWeb.Endpoint,
-        router: ApiWeb.Router,
-        statics: ApiWeb.static_paths()
+        endpoint: TailorSwifWeb.Endpoint,
+        router: TailorSwifWeb.Router,
+        statics: TailorSwifWeb.static_paths()
     end
   end
 

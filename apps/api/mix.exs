@@ -1,4 +1,4 @@
-defmodule Api.MixProject do
+defmodule TailorSwif.MixProject do
   use Mix.Project
 
   def project do
@@ -18,7 +18,7 @@ defmodule Api.MixProject do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {Api.Application, []},
+      mod: {TailorSwif.Application, []},
       extra_applications: [:logger, :runtime_tools]
     ]
   end

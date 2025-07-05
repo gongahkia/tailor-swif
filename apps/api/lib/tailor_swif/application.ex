@@ -1,4 +1,4 @@
-defmodule Api.Application do
+defmodule TailorSwif.Application do
   # See https://hexdocs.pm/elixir/Application.html
   # for more information on OTP Applications
   @moduledoc false
@@ -8,21 +8,21 @@ defmodule Api.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      ApiWeb.Telemetry,
-      Api.Repo,
+      TailorSwifWeb.Telemetry,
+      TailorSwif.Repo,
       {DNSCluster, query: Application.get_env(:api, :dns_cluster_query) || :ignore},
-      {Phoenix.PubSub, name: Api.PubSub},
+      {Phoenix.PubSub, name: TailorSwif.PubSub},
       # Start the Finch HTTP client for sending emails
-      {Finch, name: Api.Finch},
-      # Start a worker by calling: Api.Worker.start_link(arg)
-      # {Api.Worker, arg},
+      {Finch, name: TailorSwif.Finch},
+      # Start a worker by calling: TailorSwif.Worker.start_link(arg)
+      # {TailorSwif.Worker, arg},
       # Start to serve requests, typically the last entry
-      ApiWeb.Endpoint
+      TailorSwifWeb.Endpoint
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: Api.Supervisor]
+    opts = [strategy: :one_for_one, name: TailorSwif.Supervisor]
     Supervisor.start_link(children, opts)
   end
 
@@ -30,7 +30,7 @@ defmodule Api.Application do
   # whenever the application is updated.
   @impl true
   def config_change(changed, _new, removed) do
-    ApiWeb.Endpoint.config_change(changed, removed)
+    TailorSwifWeb.Endpoint.config_change(changed, removed)
     :ok
   end
 end

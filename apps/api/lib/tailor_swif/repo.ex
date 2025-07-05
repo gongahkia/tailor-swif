@@ -1,4 +1,4 @@
-defmodule Api.Repo do
+defmodule TailorSwif.Repo do
   use Ecto.Repo,
     otp_app: :api,
     adapter: Ecto.Adapters.Postgres

@@ -8,18 +8,18 @@
 import Config
 
 config :api,
-  ecto_repos: [Api.Repo],
+  ecto_repos: [TailorSwif.Repo],
   generators: [timestamp_type: :utc_datetime, binary_id: true]
 
 # Configures the endpoint
-config :api, ApiWeb.Endpoint,
+config :api, TailorSwifWeb.Endpoint,
   url: [host: "localhost"],
   adapter: Bandit.PhoenixAdapter,
   render_errors: [
-    formats: [json: ApiWeb.ErrorJSON],
+    formats: [json: TailorSwifWeb.ErrorJSON],
     layout: false
   ],
-  pubsub_server: Api.PubSub,
+  pubsub_server: TailorSwif.PubSub,
   live_view: [signing_salt: "2BZ+92CH"]
 
 # Configures the mailer
@@ -29,7 +29,7 @@ config :api, ApiWeb.Endpoint,
 #
 # For production it's recommended to configure a different adapter
 # at the `config/runtime.exs`.
-config :api, Api.Mailer, adapter: Swoosh.Adapters.Local
+config :api, TailorSwif.Mailer, adapter: Swoosh.Adapters.Local
 
 # Configures Elixir's Logger
 config :logger, :console,

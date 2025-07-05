@@ -1,11 +1,11 @@
-defmodule ApiWeb.Router do
-  use ApiWeb, :router
+defmodule TailorSwifWeb.Router do
+  use TailorSwifWeb, :router
 
   pipeline :api do
     plug :accepts, ["json"]
   end
 
-  scope "/api", ApiWeb do
+  scope "/api", TailorSwifWeb do
     pipe_through :api
   end
 
@@ -21,7 +21,7 @@ defmodule ApiWeb.Router do
     scope "/dev" do
       pipe_through [:fetch_session, :protect_from_forgery]
 
-      live_dashboard "/dashboard", metrics: ApiWeb.Telemetry
+      live_dashboard "/dashboard", metrics: TailorSwifWeb.Telemetry
       forward "/mailbox", Plug.Swoosh.MailboxPreview
     end
   end
