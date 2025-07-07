@@ -22,7 +22,9 @@ Made mainly to learn [this stack](#stack). My takeaways can be found [here](#tak
 > [!IMPORTANT]
 > Read the [legal disclaimer](#legal-disclaimer) before using `Taylor Swif`.
 
-1. The below instructions are for locally hosting `Tailor Swif`.
+The below instructions are for locally hosting `Tailor Swif`.
+
+1. Execute the below.
 
 ```console
 $ git clone https://github.com/gongahkia/tailor-swif && cd tailor-swif
